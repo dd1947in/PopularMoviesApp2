@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:3:5-58
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:8:5-78:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\dd2568\.android\build-cache\9c303ee4375b290cd92aa03f3eac899c95dca0d5\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dd2568\.android\build-cache\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\10ae89fbfdfea347b8121fabfcee4a0927f21fd9\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\dd2568\.android\build-cache\8ffd2f961c46f0ba4b549d840bacbae56c74ae45\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dd2568\.android\build-cache\cea9f5ec811d111bb669537e9306ce9420c35252\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dd2568\.android\build-cache\e7e23e1de7c909ce60292d2a72ec7f3c1a0bc291\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dd2568\.android\build-cache\2072345e819aa72e340767bd132af28d0f9aed40\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dd2568\.android\build-cache\9f6b64d8bfbe82487f19d8ab7884c13bcfe845ae\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dd2568\.android\build-cache\083ea844562c4197320054f50bd424fb7ec820fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\af1a6ea8c8f2ee7c0f3968b9fe81a917f5a2bf01\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dd2568\.android\build-cache\3c065ff025e8b788d41c607c2aab7467746a9052\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.uadnd.cou8901.popularmoviesapp2.MovieDbMainActivity
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:18:9-27:20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:19:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.example.uadnd.cou8901.popularmoviesapp2.MovieDbDetailActivity
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:32:9-39:20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:34:13-41
+	android:launchMode
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:33:13-50
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:36:13-38:56
+	android:value
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:38:17-53
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:37:17-63
+activity#com.example.uadnd.cou8901.popularmoviesapp2.SettingsActivity
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:41:9-48:20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:43:13-60
+	android:parentActivityName
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:44:13-62
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:42:13-45
+activity#com.example.uadnd.cou8901.popularmoviesapp2.BrowseTrailersActivity
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:54:13-46
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:53:19-57
+activity#com.example.uadnd.cou8901.popularmoviesapp2.BrowseReviewsActivity
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:62:9-69:20
+	android:label
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:63:13-42
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:62:19-56
+provider#com.example.uadnd.cou8901.popularmoviesapp2.cp.FavoriteMoviesContentProvider
+ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:73:9-76:39
+	android:authorities
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:75:13-78
+	android:exported
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml:74:13-104
+uses-sdk
+INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\dd2568\.android\build-cache\9c303ee4375b290cd92aa03f3eac899c95dca0d5\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dd2568\.android\build-cache\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\10ae89fbfdfea347b8121fabfcee4a0927f21fd9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\dd2568\.android\build-cache\ba5a281575c4fda1cc8119540380af1a41a2e185\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\dd2568\.android\build-cache\8ffd2f961c46f0ba4b549d840bacbae56c74ae45\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dd2568\.android\build-cache\cea9f5ec811d111bb669537e9306ce9420c35252\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dd2568\.android\build-cache\e7e23e1de7c909ce60292d2a72ec7f3c1a0bc291\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dd2568\.android\build-cache\2072345e819aa72e340767bd132af28d0f9aed40\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dd2568\.android\build-cache\9f6b64d8bfbe82487f19d8ab7884c13bcfe845ae\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dd2568\.android\build-cache\083ea844562c4197320054f50bd424fb7ec820fe\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\af1a6ea8c8f2ee7c0f3968b9fe81a917f5a2bf01\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dd2568\.android\build-cache\3c065ff025e8b788d41c607c2aab7467746a9052\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dd2568\.android\build-cache\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\10ae89fbfdfea347b8121fabfcee4a0927f21fd9\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\dd2568\.android\build-cache\ba5a281575c4fda1cc8119540380af1a41a2e185\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\dd2568\.android\build-cache\8ffd2f961c46f0ba4b549d840bacbae56c74ae45\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dd2568\.android\build-cache\cea9f5ec811d111bb669537e9306ce9420c35252\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dd2568\.android\build-cache\e7e23e1de7c909ce60292d2a72ec7f3c1a0bc291\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dd2568\.android\build-cache\2072345e819aa72e340767bd132af28d0f9aed40\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dd2568\.android\build-cache\9f6b64d8bfbe82487f19d8ab7884c13bcfe845ae\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dd2568\.android\build-cache\083ea844562c4197320054f50bd424fb7ec820fe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dd2568\.android\build-cache\af1a6ea8c8f2ee7c0f3968b9fe81a917f5a2bf01\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dd2568\.android\build-cache\3c065ff025e8b788d41c607c2aab7467746a9052\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\dd2568\.android\build-cache\ad1546eff8f1478a082b21e56a4bc8b917fcadca\output\AndroidManifest.xml:26:9-47

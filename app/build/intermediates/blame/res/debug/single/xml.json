@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_movie_db.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\xml\\pref_movie_db.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    }
+]

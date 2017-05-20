@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/pref_movie_db_list_default"
+        android:entries="@array/pref_movie_db_list_titles"
+        android:entryValues="@array/pref_movie_db_list_values"
+        android:key="@string/pref_movie_db_list"
+        android:title="@string/pref_header_movie_db_lt" />
+
+</PreferenceScreen>

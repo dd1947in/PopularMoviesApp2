@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_movie_db_main.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\menu\\menu_movie_db_main.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_movie_db_main.xml",
+        "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\src\\main\\res\\menu\\menu_movie_db_main.xml"
+    }
+]

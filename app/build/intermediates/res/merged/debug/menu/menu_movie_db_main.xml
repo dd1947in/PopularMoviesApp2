@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.uadnd.cou8901.popularmoviesapp2.com.example.uadnd.cou8901.popularmoviesapp2.MovieDbMainActivity">
+    <!--
+    <item
+        android:id="@+id/action_pop"
+        android:orderInCategory="1"
+        android:title="@string/popular"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_top"
+        android:orderInCategory="2"
+        android:title="@string/top_rated"
+        app:showAsAction="always"/>
+        -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

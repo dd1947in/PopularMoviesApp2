@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="72e275ea3eec23dd2dd162268df39994c61c1d12">
+        <dex dex="C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9305613ee4b6da86b13475a4c6b321bc79b84c94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Udacity\AndroidDeveloperND\Popular-Movies-Stage-2\Project2\PopularMoviesApp2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a937724fa965a802347db8ea50edbc2e890fbc76\classes.dex" />
+    </item>
+
+</items>
