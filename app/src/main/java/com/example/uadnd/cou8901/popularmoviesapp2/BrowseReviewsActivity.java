@@ -17,13 +17,25 @@ import com.example.uadnd.cou8901.popularmoviesapp2.moviedbutils.MovieDbJsonParse
 public class BrowseReviewsActivity extends AppCompatActivity implements
         ReviewsAdapter.ReviewsAdapterOnClickHandler,
         LoaderManager.LoaderCallbacks<String[]>{
-    private static final String TAG = BrowseReviewsActivity.class.getName();
+    private static final String TAG = BrowseReviewsActivity.class.getSimpleName();
     private RecyclerView mRecyclerView;
     private ReviewsAdapter mReviewsAdapter;
 
     private static final int REVIEWS_LOADER_ID = 2;
     private String movieId;
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.d(TAG, "onSaveInstanceState");
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        Log.d(TAG, "onRestoreInstanceState");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

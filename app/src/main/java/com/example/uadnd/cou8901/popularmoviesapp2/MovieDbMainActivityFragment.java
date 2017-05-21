@@ -35,9 +35,28 @@ public class MovieDbMainActivityFragment extends Fragment {
      */
     private static String TAG = MovieDbMainActivityFragment.class.getSimpleName();
     private View rootView;
-    private GridView gridView;
+    public GridView gridView;
     private MovieDbMovieAdapter movieDbMovieAdapter;
     public static MovieDbMovie [] movieDbMovies ;
+
+//    @Override
+//    public void onSaveInstanceState(Bundle outState) {
+//        outState.putString("GRID_POS", String.valueOf(gridView.getFirstVisiblePosition()));
+//        super.onSaveInstanceState(outState);
+//        Log.d(TAG, "GRID_POS : " + String.valueOf(gridView.getFirstVisiblePosition()));
+//    }
+
+//    @Override
+//    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+//        int intGridPos = 0;
+//        super.onViewStateRestored(savedInstanceState);
+//        String gridPos = savedInstanceState.getString("GRID_POS");
+//        if(gridPos != null) {
+//            intGridPos = Integer.parseInt(gridPos);
+//        }
+//        gridView.setSelection(intGridPos);
+//
+//    }
     //String currentMovieList = MovieDbMainActivity.POPULAR_LIST;
 
 
@@ -102,7 +121,7 @@ public class MovieDbMainActivityFragment extends Fragment {
             int i = 0;
             String[] moviesFavJson = null;
             int favoriteCount;
-            Cursor cursor = context.getContentResolver().query(FavoriteMoviesContract.FavoriteMovies.CONTENT_URI, null, null, null, null);
+            Cursor cursor = context.getContentResolver().query(FavoriteMoviesContract.FavoriteMovies.CONTENT_URI, null, null, null, FavoriteMoviesContract.FavoriteMovies.COLUMN_ID);
             int idColIndex = cursor.getColumnIndex(FavoriteMoviesContract.FavoriteMovies.COLUMN_ID);
             favoriteCount = cursor.getCount();
             // JSON for favorite movies list is mechanically prepared by concating individual movie json and then

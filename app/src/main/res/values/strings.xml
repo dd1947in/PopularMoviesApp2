@@ -1,6 +1,7 @@
 <resources>
     <string name="movie_db_api_key">MOVIE_DB_V3_API_KEY</string>
 
+
     <string name="app_name">MovieApp2</string>
     <string name="popular">Popular</string>
     <string name="top_rated">Top Rated</string>

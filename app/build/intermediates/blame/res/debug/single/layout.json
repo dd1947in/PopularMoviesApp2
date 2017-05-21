@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\dd2568\\.android\\build-cache\\ad1546eff8f1478a082b21e56a4bc8b917fcadca\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movie_db_main.xml",
         "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\src\\main\\res\\layout\\activity_movie_db_main.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\dd2568\\.android\\build-cache\\ad1546eff8f1478a082b21e56a4bc8b917fcadca\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -116,20 +116,20 @@
         "source": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\src\\main\\res\\layout\\fragment_movie_db_main.xml"
     },
     {
-        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\dd2568\\.android\\build-cache\\ad1546eff8f1478a082b21e56a4bc8b917fcadca\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
         "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\dd2568\\.android\\build-cache\\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\dd2568\\.android\\build-cache\\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\dd2568\\.android\\build-cache\\ad1546eff8f1478a082b21e56a4bc8b917fcadca\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\dd2568\\.android\\build-cache\\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-2\\Project2\\PopularMoviesApp2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\dd2568\\.android\\build-cache\\e5912dcbf9a8ddba1e6a0c5ec4b708fe28d96349\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Udacity\\AndroidDeveloperND\\Popular-Movies-Stage-1\\Project1\\PopularMoviesApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

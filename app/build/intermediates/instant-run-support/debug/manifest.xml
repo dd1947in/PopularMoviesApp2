@@ -24,7 +24,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <!-- Manifest entry needed for Movie DB Main Activity -->
+        <!--
+             Movie  Main Activity allows browsing of popular / top rated / favorite movie lists.
+             Movie Detail activity can be launched from this activity
+        -->
         <activity
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.MovieDbMainActivity"
             android:label="@string/app_name"
@@ -35,14 +38,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Manifest entry needed for Movie DB Detail Activity -->
+        <!--
+             Movie Detail activity, Launched from  Movie Main Activity on clicking a movie.
+             This activity shows movie poster, release date, average reading, and overview.
+             The movie can be marked favorite, activities to browse trailers/videos, and reviews can be launched
+             from this Movie Detail Activity. Additional functionality to share on social networks can be added .
+        -->
         <activity
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.MovieDbDetailActivity"
-            android:label="Movie Detail" >
+            android:label="Movie Detail"
+            android:launchMode="singleTop" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MovieDbMainActivity" />
         </activity>
+        <!-- Settings Activity is used to store/update movie list preference (Popular/Top Rated/Favorite) in Shared Preferences -->
         <activity
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.SettingsActivity"
             android:label="@string/title_activity_settings"
@@ -51,6 +61,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.uadnd.cou8901.popularmoviesapp2.MovieDbMainActivity" />
         </activity>
+
+        <!-- Activity for browsing movie trailers/videos, launched from detail activity on clicking button "Browse Trailers" -->
+        <!--
+        Individual Trailers / Videos Launched from this activity,
+        Use back button to get exit from youtube/browser to get back to thi activity
+        -->
         <activity
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.BrowseTrailersActivity"
             android:label="Trailers / Videos" >
@@ -58,6 +74,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MovieDbDetailActivity" />
         </activity>
+
+        <!-- Activity for browsing movie reviews, launched from detail activity on clicking button "Mark as Favorite" -->
         <activity
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.BrowseReviewsActivity"
             android:label="Movie Reviews" >
@@ -65,7 +83,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MovieDbDetailActivity" />
         </activity>
-
+        <!--
+              Content Provider to CRU(D!) Favorite Movies . Favorite movies are created/inserted/updted from Movie Detail Activity
+              Favorite Movies are read using this content provider from Movie Main Activity if "Favorite" is in the shared preferences
+              The delete function is not yet implemented.
+        -->
         <provider
             android:name="com.example.uadnd.cou8901.popularmoviesapp2.cp.FavoriteMoviesContentProvider"
             android:authorities="com.example.uadnd.cou8901.popularmoviesapp2"

@@ -141,14 +141,14 @@ public class MovieDbDetailActivity extends AppCompatActivity  {
         //Log.d(TAG,movieJson );
         outState.putString("MOVIE", movieJson);
         super.onSaveInstanceState(outState);
-        //Log.d(TAG, "onSaveInstanceState");
+        Log.d(TAG, "onSaveInstanceState");
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         movieJson = savedInstanceState.getString("MOVIE");
-        //Log.d(TAG, "onRestoreInstanceState 1");
+        Log.d(TAG, "onRestoreInstanceState 1");
     }
 
     @Override

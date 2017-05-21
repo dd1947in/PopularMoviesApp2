@@ -14,11 +14,36 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MovieDbMainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private final static String TAG = MovieDbMainActivity.class.getName();
+    private final static String TAG = MovieDbMainActivity.class.getSimpleName();
 
 
     public static String currentMovieList = null ; // initialize from shared preferences in onCreate
+    //int index = gridView.getFirstVisiblePosition();
+    //gridView.setSelection(index);
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        //super.onSaveInstanceState(outState);
+        MovieDbMainActivityFragment movieGridFragment = (MovieDbMainActivityFragment) getSupportFragmentManager().findFragmentById(R.id.fragment);
+        outState.putString("GRID_POS", String.valueOf(movieGridFragment.gridView.getFirstVisiblePosition()));
+        Log.d(TAG, "onSaveInstanceState: GRID_POS : " + String.valueOf(movieGridFragment.gridView.getFirstVisiblePosition()));
+        super.onSaveInstanceState(outState);
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        int intGridPos = 0;
+        MovieDbMainActivityFragment movieGridFragment = (MovieDbMainActivityFragment) getSupportFragmentManager().findFragmentById(R.id.fragment);
+        String gridPos = savedInstanceState.getString("GRID_POS");
+        if(gridPos != null) {
+            Log.d(TAG, "onRestoreInstanceState: GRID_POS : " + gridPos);
+            intGridPos = Integer.parseInt(gridPos);
+        }
+        movieGridFragment.gridView.setSelection(intGridPos);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
